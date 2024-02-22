@@ -57,10 +57,7 @@ ul {
 }
 
 .text-body {
-  color: var(--text-color);
-}
-
-.text-body-medium {
+  font-weight: 400;
   color: var(--text-color);
 }
 
@@ -69,6 +66,7 @@ ul {
   font-weight: 500;
   line-height: 1.17;
   letter-spacing: 4%;
+  cursor: pointer;
 }
 
 .link {
