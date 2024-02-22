@@ -1,3 +1,3 @@
-### goit-markup-hw-01
+### goit-markup-hw-02
 
-[preview](https://zharuk-alex.github.io/goit-markup-hw-01/)
+[preview](https://zharuk-alex.github.io/goit-markup-hw-02/)
