@@ -19,7 +19,7 @@ body {
   font-family: var(--font-family);
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: var(--white-color);
   color: var(--navy-blue);
@@ -38,7 +38,7 @@ ul {
 .heading-1 {
   font-size: 56px;
   font-weight: 700;
-  line-height: 107%;
+  line-height: 1.07;
 }
 
 .heading-2 {
@@ -60,22 +60,21 @@ ul {
   color: var(--text-color);
 }
 
-.text-caption {
-  line-height: 14px;
-  letter-spacing: 0.04em;
+.text-body-medium {
+  color: var(--text-color);
 }
 
 .btn {
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.17;
   letter-spacing: 4%;
 }
 
 .link {
   font-size: 12px;
   font-weight: 400;
-  line-height: 16px;
+  line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration: underline;
   color: var(--primary-color);
@@ -102,7 +101,7 @@ ul {
   font-family: var(--second-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
