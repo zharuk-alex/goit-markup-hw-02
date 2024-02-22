@@ -1,0 +1,140 @@
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --second-family: 'Raleway', sans-serif;
+  --primary-color: #4d5ae5;
+  --pressed-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #2e2f42;
+  --text-color: #434455;
+  --text-subtitle-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --navy-blue: #2e2f42;
+  --grey-color: #2e2f42;
+  --dairy-color: #fcfcfc;
+  --white-color: #ffffff;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  background-color: var(--white-color);
+  color: var(--navy-blue);
+}
+
+a {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-style: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+.heading-1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 107%;
+}
+
+.heading-2 {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.heading-3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-body {
+  color: var(--text-color);
+}
+
+.text-caption {
+  line-height: 14px;
+  letter-spacing: 0.04em;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4%;
+}
+
+.link {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--pressed-color);
+  color: var(--white-color);
+}
+
+.btn-light {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+/* content */
+.logo {
+  font-family: var(--second-family);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.header .nav-link,
+.header .address-link {
+  color: var(--navy-blue);
+}
+
+.header .nav-link:hover {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.header .address-link:hover {
+  color: var(--primary-color);
+}
+
+.hero {
+  text-align: center;
+  background-color: var(--navy-blue);
+}
+
+.hero .heading-1 {
+  color: var(--white-color);
+}
+
+.section-services {
+  background-color: var(--light-color);
+}
+
+.footer {
+  background-color: var(--navy-blue);
+  color: var(--light-color);
+}
