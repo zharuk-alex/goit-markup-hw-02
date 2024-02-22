@@ -61,14 +61,6 @@ ul {
   color: var(--text-color);
 }
 
-.btn {
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.17;
-  letter-spacing: 4%;
-  cursor: pointer;
-}
-
 .link {
   font-size: 12px;
   font-weight: 400;
@@ -79,6 +71,10 @@ ul {
 }
 
 .btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   background-color: var(--primary-color);
   color: var(--white-color);
 }
