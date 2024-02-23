@@ -23,10 +23,6 @@ body {
   color: var(--navy-blue);
 }
 
-/*   font-weight: 400;
-  line-height: 1.5;
-  letter-spacing: 0.02em; */
-
 a {
   color: var(--navy-blue);
   text-decoration: none;
@@ -46,9 +42,11 @@ ul {
   font-size: 36px;
   line-height: 1.11111;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
 }
 
 .text-title {
+  letter-spacing: 0.02em;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -60,17 +58,19 @@ ul {
 
 .text-body {
   color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .text-caption {
   line-height: 1.16667;
   font-size: 12px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
 }
 
 .link {
   font-size: 12px;
-  line-height: 1.33;
+  line-height: 1.33333;
   letter-spacing: 0.04em;
   text-decoration: underline;
   color: var(--primary-color);
@@ -109,7 +109,7 @@ ul {
   color: var(--primary-color);
 }
 
-.header .logo > span:first-child {
+.header .logo > .logo-suffix {
   color: var(--navy-blue);
 }
 
@@ -134,7 +134,7 @@ ul {
   background-color: var(--navy-blue);
 }
 
-.hero .heading-1 {
+.hero .page-title {
   color: var(--white-color);
 }
 
@@ -144,9 +144,12 @@ ul {
 
 .footer {
   background-color: var(--navy-blue);
+}
+
+.footer .text-body {
   color: var(--light-color);
 }
 
-.footer .logo > span:first-child {
+.footer .logo > .logo-suffix {
   color: var(--light-color);
 }
