@@ -37,18 +37,18 @@ ul {
   list-style: none;
 }
 
-.heading-1 {
+.page-title {
   font-size: 56px;
   line-height: 1.07;
 }
 
-.heading-2 {
+.section-title {
   font-size: 36px;
   line-height: 1.11111;
   text-transform: capitalize;
 }
 
-.heading-3 {
+.text-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
