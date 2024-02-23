@@ -49,6 +49,7 @@ ul {
 .heading-3 {
   font-size: 20px;
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .text-center {
@@ -57,6 +58,12 @@ ul {
 
 .text-body {
   color: var(--text-color);
+}
+
+.text-caption {
+  line-height: 1.16667;
+  font-size: 12px;
+  letter-spacing: 0.02em;
 }
 
 .link {
@@ -92,7 +99,7 @@ ul {
   font-family: var(--second-family);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.17;
+  line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -103,10 +110,10 @@ ul {
 }
 
 .header .nav-link:hover {
-  color: var(--primary-color);
   font-weight: 500;
 }
 
+.header .nav-link:hover,
 .header .address-link:hover {
   color: var(--primary-color);
 }
@@ -126,5 +133,9 @@ ul {
 
 .footer {
   background-color: var(--navy-blue);
+  color: var(--light-color);
+}
+
+.footer .logo {
   color: var(--light-color);
 }
