@@ -37,13 +37,12 @@ ul {
 
 .heading-1 {
   font-size: 56px;
-  font-weight: 700;
   line-height: 1.07;
 }
 
 .heading-2 {
   font-size: 36px;
-  font-weight: 700;
+  line-height: 1.11111;
   text-transform: capitalize;
 }
 
@@ -57,13 +56,11 @@ ul {
 }
 
 .text-body {
-  font-weight: 400;
   color: var(--text-color);
 }
 
 .link {
   font-size: 12px;
-  font-weight: 400;
   line-height: 1.33;
   letter-spacing: 0.04em;
   text-decoration: underline;
